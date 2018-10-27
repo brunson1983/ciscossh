@@ -4,7 +4,7 @@ import time
 
 ip_address = "192.168.10.9"
 username = "brunson"
-password = "1234"
+password = "12345"
 
 ssh_client = paramiko.SSHClient()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
